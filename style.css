@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1b1c1f;
+  color: #e1e0e2;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid orange;
+}
+
+#name {
+  position: relative;
+}
+.fa-user {
+  position: absolute;
+  z-index: 999;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  flex: 1;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border: 1px solid #363636;
+  border-radius: 10px;
+  background-color: #161519;
+  color: #e1e0e2;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff811d;
+}
+
+#subBtn {
+  padding: 11px;
+  width: 200px;
+  background-color: #ff811d;
+  color: #e1e0e2;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#subBtn:hover {
+  background-color: #ff7100;
+}
+
+#message {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: #ef233c;
+}
+
+#employeeList {
+  margin-top: 20px;
+}
+
+.employee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #333;
+}
+
+.proff {
+  margin: 0 30px;
+}
+
+#empId {
+  background-color: #ff811d;
+  padding: 4px 9px;
+  border-radius: 50%;
+}
+
+#delbtn {
+  background-color: #ef233c;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#delbtn:hover {
+  background-color: #ff0522;
+}
+#delbtn:hover #empId {
+  background-color: red;
+}
+
+#empLeft {
+  background-color: black;
+  padding: 5px;
+  color: #868181;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  /* border-right: 1px solid grey; */
+}
+
+#empRight {
+  background-color: transparent;
+  padding: 4px;
+  color: #868181;
+  border: 1px solid black;
+  margin-right: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
